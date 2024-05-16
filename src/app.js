@@ -8,6 +8,7 @@ import { PORT } from './config.js';
 const app = express();
 app.use(express.json());
 
+//rutas
 app.use('/api', indexRoutes)
 app.use('/api', employeesRoutes)
 
